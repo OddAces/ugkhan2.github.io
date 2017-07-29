@@ -1,0 +1,557 @@
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #f5f5f5;
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	background: url('../images/background.png');
+	margin: 0 auto;
+	padding: 0;
+}
+
+.wrapper {
+	background-color: #f5f5f5;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.top-links {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #595959;
+	background: -webkit-linear-gradient(0deg, #2f2f2f, #595959 70%) ;
+	background: -o-linear-gradient(0deg, #2f2f2f, #595959 70%) ;
+	background: linear-gradient(0deg, #2f2f2f, #595959 70%) ;
+}
+
+.top-links-inner {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.links-contents {
+	float: right ;
+}
+
+.logo {
+	max-height: 50px;
+}
+
+.logo h1.logo1 {
+	font-size:150%;
+	font-style: italic;
+	margin:10px 0 0 -80px;
+}
+
+.logo h1.logo2 {
+	font-size:170%;
+	color:#2465a9;
+	margin:0 0 0 -60px;
+}
+
+.logo h1.logo3 {
+	font-size:150%;
+	font-style: italic;
+	margin:0 0 0 -30px;
+}
+
+.navbar-top {
+	margin: 50px 0 0 0;
+}
+
+.navbar-top-nav {
+	background: #595959;
+	background: -webkit-linear-gradient(0deg, #2f2f2f, #595959 70%) ;
+	background: -o-linear-gradient(0deg, #2f2f2f, #595959 70%) ;
+	background: linear-gradient(0deg, #2f2f2f, #595959 70%) ;
+}
+
+.menu-icon {
+	font-size: 27px;
+	color: #f5f5f5;
+}
+
+.navbar-brand {
+	height:40px;
+}
+
+.nav-link:hover {
+	background-color: #605f5f;
+	color:white;
+}
+
+.show>.dropdown-menu {
+	background: #666;
+	opacity: 0.9
+}
+
+.dropdown-menu:after {
+    content: ' ';
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 49px;
+    top: -20px;
+    border-width: 10px 15px;
+    border-style: solid;
+    border-color: transparent transparent #666 transparent;
+}
+
+.dropdown-menu a {
+	color: #f5f5f5;
+}
+
+.dropdown-item:hover {
+	color: #f5f5f5;
+    text-decoration: none;
+    background-color: #8a8a8a;
+}
+
+.banner {
+	margin: 0;
+	padding: 10px;
+	background-color: #e8e8e8;
+}
+
+.banner div {
+	text-align: center;
+}
+
+.slider {
+	padding: 20px 0;
+}
+
+.slider img {
+	width: 100%;
+	height: auto;
+}
+
+.carousel-indicators {
+	top:240px;
+}
+
+.carousel-indicators li {
+	max-width: 10px;
+	height:10px;
+	border-radius: 10px;
+}
+
+.social {
+	position: fixed;
+	height: 30px;
+	top: 35%;
+	margin-left: 910px;
+}
+
+.social a {
+	font-size: 40px;
+}
+
+.social a {
+	color: #2f2f2f;
+	opacity: 0.6;
+}
+
+.social a:hover {
+	opacity: 0.8;
+}
+
+.post-banner {
+	padding: 15px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.register1 {
+	border-radius: 5px;
+	background-color: #B0DE2F;
+}
+
+.register2 {
+	border-radius: 5px;
+	background-color: #267EE2;
+}
+
+.register3 {
+	border-radius: 5px;
+	background-color: #FF6C18;
+}
+
+
+.register1,
+.register2,
+.register3 {
+	margin: 1.1%;
+	width:31%;
+	height:90px;
+}
+
+.post-banner .images {
+	position: relative;
+	margin:-10px 0 0 -30px;
+}
+
+.post-banner .images .clips {
+	z-index: 1;
+	margin:-5px 0 0 13px;
+}
+
+.post-banner .images img {
+	position: absolute;
+	left:12px;
+}
+
+.texts {
+	padding: 5px;
+	margin:10px 0 0 80px;
+}
+
+.texts h4 {
+	font-size:20px;
+	color: #f5f5f5;
+}
+
+.texts a {
+	vertical-align: baseline;
+	margin-left: 10px;
+	font-size: 15px;
+	color: #B04100;
+}
+
+.row-strip {
+	margin: 0;
+	padding: 0;
+}
+
+
+.strip {
+	position: relative;
+	width: 50%;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 6px 20px 6px 70px;
+	margin: 30px 10px 10px -20px;
+	color: #555;
+	background-color: #999;
+	text-shadow: 0px 1px 2px #bbb;
+	-webkit-box-shadow: 0px 2px 4px #888;
+	-moz-box-shadow: 0px 2px 4px #888;
+	box-shadow: 0px 2px 4px #888;
+}
+
+.strip:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0px;
+	top: 100%;
+	border-width: 5px 10px;
+	border-style: solid;
+	border-color: #666 #666 transparent transparent;
+}
+
+.baseline-align {
+	position: absolute;
+	bottom: 0;
+	left: 45%;
+}
+
+.tournament-programme {
+	margin-bottom: 15px;
+}
+
+.news {
+	    padding: 5px 10px
+}
+
+.news a {
+	color: #4B9CEF !important;
+}
+
+.news img {
+	width: 98%;
+}
+
+.news h3 {
+	font-size: 20px;
+	padding: 10px;
+}
+
+.btn {
+	margin-top:5px;
+}
+
+.news p {
+	text-align: justify;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.media-blue-icons {
+	display: none;
+}
+
+.icons a {
+	font-size: 15px;
+	color: #505050;
+}
+
+.icons a:hover {
+	color: #5Ca6f0;
+}
+
+.icons p {
+	font-size: 13px;
+	color: #505050;
+}
+
+.footer-wrapper {
+	background: -webkit-linear-gradient(bottom, #2f2f2f, #595959 70%);
+	background: -o-linear-gradient(bottom, #2f2f2f, #595959 70%);
+	background: linear-gradient(to top, #2f2f2f, #595959 70%);
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.footer {
+	width: 900px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.footer h4,
+.footer p {
+	color: #f5f5f5;
+}
+
+.footer row {
+	margin: 0 auto;
+}
+
+.footer li {
+	text-align: left;
+	padding: 5px 0;
+}
+
+.footer h3 {
+	text-align: left;
+	color: #f7ea74;
+}
+
+@media (max-width:900px) {
+
+	.top-links {
+		width: 100%;
+		padding: 0;
+		margin: auto;
+	}
+
+	.container {
+		width: 100%;
+		padding:0;
+	}
+
+	.wrapper {
+		width: 100%;
+		margin: 0;
+		padding: 0 10px;
+		line-height: 1.2em;
+	}
+
+	.news {
+		padding: 0;
+	}
+
+	.tournament-img {
+		padding:0 5px;
+	}
+
+	.texts {
+		padding: 10px;
+	}
+
+	.texts h4 {
+		font-size: 16px;
+	}
+
+	.strip {
+		width: 100%;
+	}
+
+	.texts a {
+		font-size: 13px;
+	}
+
+	.social {
+		position: fixed;
+		margin-left: 0;
+		top:92%;
+	}
+
+	.social .icon-div {
+		text-align: center;
+		display: inline;
+	}
+
+	.social a {
+		color: #393939;
+	}
+
+	.footer {
+		width: 100%;
+	}
+
+	.footer .footer-column {
+		margin: 0 auto;
+	}
+
+}
+
+
+@media (max-width : 580px) {
+	.wrapper {
+		padding: 0;
+	}
+
+	.logo h1 {
+		font-size:120%;
+		float: left;
+	}
+
+	.logo h1.logo1 {
+		float: left;
+		font-style: italic;
+		margin:-120px 0 0 100px;
+	}
+
+	.logo h1.logo2 {
+		float: left;
+		color:#2465a9;
+		margin:-100px 0 0 120px;
+	}
+
+	.logo h1.logo3 {
+		float: left;
+		font-style: italic;
+		margin:-80px 0 0 140px;
+	}
+
+	.news  p {
+		padding: 15px;
+	}
+
+	.social {
+		margin:0 auto;
+	}
+
+	.social icon-div {
+		text-align: center;
+		margin:0 auto;
+	}
+
+	.social .icon-div i {
+		width: 23%;
+		font-size: 400%;
+	}
+
+	.icon {
+		width: 50%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.baseline-align {
+		position: relative;
+		left: 10px;
+	}
+
+
+	.register1,
+	.register2,
+	.register3 {
+		width: 90%;
+		margin: 10px auto;
+		text-align: center;
+	}
+
+	.footer {
+		padding: 0;
+		margin: 0;
+	}
+
+	.footer> div {
+		width: 50%;
+	}
+
+	.footer h3 {
+		font-size: 20px;
+	}
+
+}
+
+@media (max-width:768px )and (min-width:581px){
+
+	.container {
+		padding: 0;
+	}
+
+	.wrapper {
+		padding: 0 10px;
+	}
+
+	.slider {
+		padding: 10px;
+	}
+
+	.post-banner {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	.texts h4 {
+		font-size: 20px;
+	}
+
+	.texts a {
+		font-size: 15px;
+	}
+
+	.register1,
+	.register2,
+	.register3 {
+		width: 90%;
+		margin: 10px auto;
+		text-align: center;
+	}
+
+	.news h3 {
+		font-size: 14px;
+	}
+
+	.news p {
+		padding: 15px;
+	}
+
+	.baseline-align {
+		position: relative;
+		left: 10px;
+	}
+
+}
